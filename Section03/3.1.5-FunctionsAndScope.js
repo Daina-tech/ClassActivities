@@ -17,7 +17,7 @@ console.log(addNumbersFrom1To100());
 console.log(total); //it would not be able to reference total, because total is declared inside the child scope.
 
 // examine the code below,
-// ? which console.log statement will not print when you invoke the parentAndChildScope function ?
+// which console.log statement will not print when you invoke the parentAndChildScope function?
 function childScope(param) {
   const childVariable = "I am in the child's scope";
   console.log("Child Scope, Parent Variable:", param);
